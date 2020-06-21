@@ -12,7 +12,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!--  <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
   <body>
     <header>
@@ -52,7 +53,7 @@
         <button class="button" data-modal-open>Заказать услугу</button>
       </section>
 
-      <section class="section container border">
+      <section class="section container">
         <!-- скроем этот заголовок в CSS-->
         <h2 class="title visually-hidden">Наши преимущества</h2>
         <ul class="list pluses">
@@ -142,18 +143,18 @@
         </ul>
       </section>
 
-      <section class="team section container">
+      <section class="team section team-container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="list">
           <li class="member">
             <img
               src="./images/john.jpg"
-              alt="Фото Джона Смита"
+              alt="Фото Николая Кучеренко"
               width="270"
               height="260"
             />
             <div class="inside">
-              <h3 class="section-subtitle">John Smith</h3>
+              <h3 class="section-subtitle">Николай Кучеренко</h3>
               <p class="item">Product Designer</p>
               <ul class="list">
                 <li>
@@ -196,12 +197,12 @@
           <li class="member">
             <img
               src="./images/marta.jpg"
-              alt="Фото Марты Стюарт"
+              alt="Фото Ольги Ивановой"
               width="270"
               height="260"
             />
             <div class="inside">
-              <h3 class="section-subtitle">Marta Stewart</h3>
+              <h3 class="section-subtitle">Ольга Иванова</h3>
               <p class="item">Frontend Developer</p>
               <ul class="list">
                 <li>
@@ -243,12 +244,12 @@
           <li class="member">
             <img
               src="./images/robert.jpg"
-              alt="Фото Роберта Якиса"
+              alt="Фото Андрея Шевченко"
               width="270"
               height="260"
             />
             <div class="inside">
-              <h3 class="section-subtitle">Robert Jakis</h3>
+              <h3 class="section-subtitle">Андрей Шевченко</h3>
               <p class="item">Marketing</p>
               <ul class="list">
                 <li>
@@ -291,12 +292,12 @@
           <li class="member">
             <img
               src="./images/martin.jpg"
-              alt="Фото Мартина Доу"
+              alt="Фото Ивана Николаева"
               width="270"
               height="260"
             />
             <div class="inside">
-              <h3 class="section-subtitle">Martin Doe</h3>
+              <h3 class="section-subtitle">Иван Николаев</h3>
               <p class="item">UI Designer</p>
               <ul class="list">
                 <li>
@@ -395,7 +396,7 @@
       </section>
     </main>
     <footer>
-      <div class="footer container">
+      <div class="footer">
         <div class="down">
           <a href="#" class="logo">Web<span class="text"> Studio</span></a>
           <address class="address">
@@ -460,9 +461,10 @@
           </form>
         </div>
       </div>
-      <div class="copy container">
+      <!-- был удален после занятия №13 -->
+      <!--    <div class="copy container">
         <p class="copyright">2020 | Developed by GoIT Students</p>
-      </div>
+      </div> -->
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
